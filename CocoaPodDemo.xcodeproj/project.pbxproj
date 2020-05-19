@@ -10,6 +10,9 @@
 		2D12EB49247413B20073F513 /* CocoaPodDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D12EB3F247413B20073F513 /* CocoaPodDemo.framework */; };
 		2D12EB4E247413B20073F513 /* CocoaPodDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D12EB4D247413B20073F513 /* CocoaPodDemoTests.m */; };
 		2D12EB50247413B20073F513 /* CocoaPodDemo.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D12EB42247413B20073F513 /* CocoaPodDemo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D12EB5B247413EF0073F513 /* BYHello.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D12EB59247413EF0073F513 /* BYHello.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D12EB5C247413EF0073F513 /* BYHello.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D12EB5A247413EF0073F513 /* BYHello.m */; };
+		2D12EB5D2474145C0073F513 /* BYHello.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D12EB5A247413EF0073F513 /* BYHello.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +32,8 @@
 		2D12EB48247413B20073F513 /* CocoaPodDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CocoaPodDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D12EB4D247413B20073F513 /* CocoaPodDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CocoaPodDemoTests.m; sourceTree = "<group>"; };
 		2D12EB4F247413B20073F513 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D12EB59247413EF0073F513 /* BYHello.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYHello.h; sourceTree = "<group>"; };
+		2D12EB5A247413EF0073F513 /* BYHello.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYHello.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +78,8 @@
 			children = (
 				2D12EB42247413B20073F513 /* CocoaPodDemo.h */,
 				2D12EB43247413B20073F513 /* Info.plist */,
+				2D12EB59247413EF0073F513 /* BYHello.h */,
+				2D12EB5A247413EF0073F513 /* BYHello.m */,
 			);
 			path = CocoaPodDemo;
 			sourceTree = "<group>";
@@ -93,6 +100,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D12EB5B247413EF0073F513 /* BYHello.h in Headers */,
 				2D12EB50247413B20073F513 /* CocoaPodDemo.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -194,6 +202,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D12EB5C247413EF0073F513 /* BYHello.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,6 +210,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D12EB5D2474145C0073F513 /* BYHello.m in Sources */,
 				2D12EB4E247413B20073F513 /* CocoaPodDemoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
